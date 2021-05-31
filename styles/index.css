@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #0a0a0a;
+}
+
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  margin: 0 auto;
+  z-index: 1000;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #00000000;
+  z-index: 2000;
+}
+
+.showVideo {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 300px;
+  background: rgba(0, 0, 0, 0);
+}
+
+.mainVideo {
+  opacity: 90%;
+  z-index: 2000;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.oculto {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  padding: 0;
+}
+
+.visible {
+  visibility: visible;
+  transition: opacity 2s linear;
+}
+
+.buttons-container button {
+  font-family: impact;
+  font-weight: bold;
+  font-size: 6rem;
+  line-height: 0;
+  margin: 0 5rem;
+  background: none;
+  border: none;
+  color: rgb(233, 0, 0);
+  z-index: 3000;
+}
+
+.buttons-container button:first-child {
+  color: #f700b9;
+}
+
+.buttons-container button:hover {
+  cursor: pointer;
+}
