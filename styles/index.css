@@ -74,12 +74,17 @@ body {
   margin: 0 5rem;
   background: none;
   border: none;
-  color: rgb(233, 0, 0);
   z-index: 3000;
 }
 
-.buttons-container button:first-child {
+.observador {
   color: #f700b9;
+  text-shadow: 0 0 4rem #f700b9;
+}
+
+.jugador {
+  color: #e90000;
+  text-shadow: 0 0 4rem #e90000;
 }
 
 .buttons-container button:hover {
