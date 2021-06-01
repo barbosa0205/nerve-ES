@@ -4,4 +4,4 @@
 
 ## PREVIEW
 
-### prueba
+![Cover Github profile](https://raw.githubusercontent.com/barbosa0205/nerve-ES/main/media/preview.png)
